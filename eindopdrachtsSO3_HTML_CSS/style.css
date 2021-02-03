@@ -1,0 +1,321 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+/* --------GRID----------*/
+
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1.5fr 1.5fr;
+  grid-template-rows: 0, 2fr 1, 5fr 1, 2fr 0, 8fr;
+  height: 100vh;
+  margin: 2em;
+  grid-gap: 3px 10px;
+}
+
+.navbar {
+  grid-column: 2/5;
+  grid-row: 1/2;
+  text-align: right;
+}
+
+nav a {
+  color: #0e0d0d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #f3ebeb;
+  background-color: #88afaf;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+.footer {
+  background-color: #88afaf;
+  grid-column: 1/5;
+  grid-row: 4/5;
+  font-family: "LTC Twentieth Century", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* --------HOME----------*/
+
+.menu {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.headhome {
+  height: 45vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  background: url(./image/artfestival\ den-bosch03.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  grid-column: 1/5;
+  font-family: "LTC Twentieth Century", sans-serif;
+  font-size: xx-large;
+}
+
+.head {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+.content1 {
+  color: rgb(74, 73, 70);
+  grid-column: 2/3;
+  grid-row: 3/4;
+  grid-gap: 1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.h2 {
+  color: rgb(90, 88, 86);
+}
+
+.content2 {
+  color: rgb(74, 73, 70);
+  grid-column: 3/4;
+  grid-row: 3/4;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.content3 {
+  color: rgb(74, 73, 70);
+  grid-column: 4/5;
+  grid-row: 3/4;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* --------PROJECTS----------*/
+
+.headprojects {
+  height: 45vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(image/memphisgroup01.jpg) no-repeat;
+  background-size: cover;
+  grid-column: 1/5;
+  font-family: "LTC Twentieth Century", sans-serif;
+  font-size: xx-large;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/* --------MEDIA----------*/
+
+.headmedia {
+  height: 45vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./image/media.JPG) no-repeat;
+  background-size: cover;
+  font-family: "LTC Twentieth Century", sans-serif;
+  font-size: x-large;
+  line-height: 60px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  grid-column: 1/5;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+.tekstblok{
+  color: #69ceec;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+/* --------PARTICIPATE----------*/
+
+.headparticipate {
+  height: 20vh;
+  width: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #336565;
+  font-family: "LTC Twentieth Century", sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  color: #f4f5f5;
+  grid-column: 1/5;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  display: block;
+  background-color: #e63c75;
+  color: white;
+  text-align: center;
+  line-height: 39px;
+}
+
+.button:hover {
+  background-color: #69ceec;
+}
+.headline {
+  font-size: 55px;
+}
+
+.tekstblok1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.tekstblok2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p.title {
+  font-weight: lighter;
+  font-size: 3rem;
+  font-family: "LTC Twentieth Century", sans-serif;
+  color: #aa6060;
+  line-height: 42px;
+  margin: 15px auto;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+p.titles {
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: "LTC Twentieth Century", sans-serif;
+  color: #104858;
+  line-height: 40px;
+  margin: 100px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+/*<-----photo gallery----->*/
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.single-img {
+  padding: 0 10px 10px;
+}
+
+/* --------CONTACT----------*/
+
+.headcontact {
+  height: 45vh;
+  width: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./image/Webinar.JPG) no-repeat;
+  background-size: cover;
+  font-family: "LTC Twentieth Century", sans-serif;
+  font-size: xx-large;
+  line-height: 60px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  grid-column: 1/5;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+body {
+  font: 15px sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+.registration {
+  font-size: x-large;
+  color: #aa6060;
+  grid-column: 3/4;
+}
+
+.sendbutton {
+  width: 100px;
+  height: 40px;
+  display: block;
+  background-color: #aa6060;
+  color: white;
+  text-align: center;
+  line-height: 39px;
+}
+
+.sendbutton:hover {
+  background-color: #69ceec;
+}
+
+form {
+  position: relative;
+  width: 740px;
+  height: 498px;
+  margin: 0 auto;
+}
+
+/* --------MEDIA QUERY----------*/
+
+@media (min-width: 700px) {
+/* p{
+  font-size: 1.25rem;
+  } */
+}
+@media (max-width: 400px) {
+  p{
+    /* background-color: #aa6060; */
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
